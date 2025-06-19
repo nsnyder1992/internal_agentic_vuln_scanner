@@ -22,7 +22,7 @@ Our team frequently reviews Java and Python code for potential security issues, 
 
 The LLM-powered code review tool follows a multi-stage process designed to scale and streamline secure code review in environments with non-standard templating and constrained on-premise LLM resources.
 
-All LLM interactions are guardrailed through a layered defense: regex sanitization, an LLM firewall, and dedicated security agents trained to detect prompt injections, jailbreaks, and other known exploits
+All LLM interactions are guardrailed through a layered defense: levenshtein distance algorithm, an LLM firewall, and dedicated security agents trained to detect prompt injections, jailbreaks, and other known exploits
 
 ### 1. 🧹 Regex-Based Pre-Scan  
 Quickly scans for known patterns and our custom template syntax using regular expressions.  
